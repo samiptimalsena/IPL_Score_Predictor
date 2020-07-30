@@ -1,4 +1,5 @@
 .banner{
+    margin: auto;
     margin-top: 90px;
     height: 429px;
     border-radius: 10px 10px 10px 10px;
@@ -6,6 +7,10 @@
     border: 0.5px solid;
     width: 284px;
     overflow: hidden;
+}
+
+body{
+    background-color: aliceblue;
 }
 
 img{
@@ -36,3 +41,15 @@ img{
 .predict_holder{
     margin-top: 200px;
 }
+
+.main_holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-device-width: 500px){
+    .main_holder{
+        flex-direction: column;
+    }
+}
+
