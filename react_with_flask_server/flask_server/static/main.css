@@ -1,0 +1,55 @@
+.banner{
+    margin: auto;
+    margin-top: 90px;
+    height: 429px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 3px  grey;
+    border: 0.5px solid;
+    width: 284px;
+    overflow: hidden;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+img{
+    width: 284px;
+    height: 429px;
+    object-fit: fill;
+    display: block;
+}
+
+.form-control{
+    margin-top: 15px;
+    background-color:whitesmoke;
+    box-shadow:3px 5px 10px  grey ;
+}
+
+.formHolder{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.predictButton{
+    margin-top: 25px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.predict_holder{
+    margin-top: 200px;
+}
+
+.main_holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-device-width: 500px){
+    .main_holder{
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="predict_holder text-muted">
+    <h2>{{team}} will score <b>{{prediction-7}} - {{prediction+7}}</b> runs.</h2>
+    <a class="btn btn-default" href="{{url_for('home')}}" style="color: green; margin-top: 50px;">« Go back</a>
+</div>
+{% endblock %}

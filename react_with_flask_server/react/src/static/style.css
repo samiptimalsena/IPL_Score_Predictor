@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main_holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner{
+    margin: auto;
+    margin-top: 90px;
+    height: 429px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 5px 3px  grey;
+    border: 0.5px solid;
+    width: 284px;
+    overflow: hidden;
+}
+img{
+    width: 284px;
+    height: 429px;
+    object-fit: fill;
+    display: block;
+}
+
+.formHolder{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.select_form{
+    margin-bottom: 15px;
+}
+
+.predict_holder{
+    margin-top: 200px;
+}
+
+.go_back{
+    color: green;
+    margin-top: 50px;
+}
+
+@media screen and (max-device-width: 500px){
+    .main_holder{
+        flex-direction: column;
+    }
+}
